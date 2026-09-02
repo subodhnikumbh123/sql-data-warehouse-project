@@ -21,8 +21,19 @@ CREATE DATABASE DataWarehouse;
 USE DataWarehouse;
 
 -- Create Schemas
-CREATE SCHEMA bronze;
+/*
+=============================================================
+Create Database and Schemas
+=============================================================
+Script Purpose:
+    This script initializes the DataWarehouse schemas:
+    - bronze: Ingestion layer for raw data
+    - silver: Cleansed, transformed, and enriched data
+    - gold:   Analytical and reporting layer (star schema)
+=============================================================
+*/
 
-CREATE SCHEMA silver;
-
-CREATE SCHEMA gold;
+-- Create Schemas
+CREATE SCHEMA IF NOT EXISTS bronze;
+CREATE SCHEMA IF NOT EXISTS silver;
+CREATE SCHEMA IF NOT EXISTS gold;
