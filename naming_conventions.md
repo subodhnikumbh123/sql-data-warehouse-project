@@ -35,4 +35,4 @@ This document establishes the uniform naming rules across database schemas, tabl
   * `dwh_create_date`: Timestamp representing when the record entered the warehouse layer.
 
 3. Casing:
-All table names, view names, and column identifiers use lowercase `snake_case`.
+  * All table names, view names, and column identifiers use lowercase `snake_case`.
