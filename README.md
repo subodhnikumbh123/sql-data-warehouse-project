@@ -65,7 +65,7 @@ For more details, refer to `docs/requirements.md`.
 
 The data architecture for this project follows the **Medallion Architecture** across Bronze, Silver, and Gold layers:
 
-![Data Architecture]
+[Data Architecture]
 
 1. **Bronze Layer:** Stores raw data as-is from source systems. Data is ingested from CSV files into raw tables without schema modification.
 2. **Silver Layer:** Applies data cleansing, deduplication, standardizations, data type casting, and schema normalization to prepare data for modeling.
