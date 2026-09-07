@@ -65,14 +65,30 @@ For more details, refer to `docs/requirements.md`.
 
 The data architecture for this project follows the **Medallion Architecture** across Bronze, Silver, and Gold layers:
 
-![Data Architecture](docs/data_architecture.png)
+![Data Architecture]
 
 1. **Bronze Layer:** Stores raw data as-is from source systems. Data is ingested from CSV files into raw tables without schema modification.
 2. **Silver Layer:** Applies data cleansing, deduplication, standardizations, data type casting, and schema normalization to prepare data for modeling.
 3. **Gold Layer:** Houses business-ready data modeled into an analytical **Star Schema** (Dimension and Fact views) optimized for BI and reporting.
 
 ---
+## About Me
 
+Hi there! I'm **Subodh Nikumbh**. I'm an IT professional and an aspiring data engineer passionate about SQL, data warehousing, and building scalable data pipelines. 
+
+I continuously develop my skills by designing practical, end-to-end data architectures and analytics solutions.
+
+* **GitHub:** [Subodh Nikumbh](https://github.com/subodhnikumbh123)
+* **LinkedIn:** [Connect on LinkedIn](https://www.linkedin.com/subodhnikumbh)
+* **Portfolio:** [Projects & Write-ups](https://analyst-lab-resume-subodh.vercel.app/)
+
+---
+
+## License
+
+This project is licensed under the [MIT License](LICENSE). 
+
+You are free to use, modify, distribute, and share this project with proper attribution. See the `LICENSE` file for full terms and details.
 ## 📁 Repository Structure
 
 ```text
@@ -108,16 +124,5 @@ data-warehouse-project/
 ├── LICENSE                  # License terms for repository use (e.g., MIT)
 ├── .gitignore               # Files and paths ignored by Git
 └── requirements.txt         # Any dependencies or Python setup requirements
-
-## 🛡️ License
-
-This project is licensed under the [MIT License](LICENSE). You are free to use, modify, and share this project with proper attribution.
-
-## 🌟 About Me
-
-Hi there! I'm **Subodh Nikumbh**. I’m an IT professional and an aspiring data professional passionate about SQL, data engineering, and analytics. This project demonstrates my hands-on experience with SQL Server, ETL processes, data warehousing, and analytical reporting.
-
-
-I’m continuously developing my skills by building practical, real-world data projects.
-
 ---
+
