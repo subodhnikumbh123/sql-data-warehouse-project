@@ -26,10 +26,13 @@ This document establishes the uniform naming rules across database schemas, tabl
 
 ## Column Standards
 
-* **Identifiers & Keys:**
+**Identifiers & Keys:**
   * Primary keys in Silver: `cst_id`, `prd_id`.
   * Natural/Business keys: `cst_key`, `prd_key`, `cid`.
   * Surrogate keys in Gold: `customer_key`, `product_key` (generated via `ROW_NUMBER()`).
-* **Audit Columns:**
+
+**Audit Columns:**
   * `dwh_create_date`: Timestamp representing when the record entered the warehouse layer.
-* **Casing:** All table names, view names, and column identifiers use lowercase `snake_case`.
+
+**Casing:**
+All table names, view names, and column identifiers use lowercase `snake_case`.
